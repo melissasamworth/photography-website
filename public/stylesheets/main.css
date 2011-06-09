@@ -108,29 +108,39 @@ img.portfolio {
 	padding:5px;
 	width:111px;
 	height:74px;
-}
 
 /*italic text*/
 i {
 	font-family:times;
 	font-size:12px;
 	letter-spacing:0px;
-
 }
 
 /*captions*/
-.picture {
-	padding: 5px; 
-	font: 11px/1.4em Arial, sans-serif; 
-	text-align:center;
-}
- 
-.picture img { 
-	border: 1px solid #CCCCCC; 
-	vertical-align:middle; margin-bottom: 3px; } 
+div.img
+  {
+  margin:2px;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+  }
+div.img img
+  {
+  display:inline;
+  margin:3px;
+  border:1px solid grey;
+  }
+div.desc
+  {
+  text-align:center;
+  font-weight:normal;
+  width:200px;
+  margin-top:-7px;
+  margin-bottom:2px;
+  }
 
-/*grey border*/
-img.greyborder {
-		border: 1px solid #CCCCCC; 
-}
-
+  /*borders*/
+ img.border {
+ 	border:1px solid grey;
+ }

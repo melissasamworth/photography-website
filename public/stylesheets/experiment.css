@@ -1,0 +1,24 @@
+div.img
+  {
+  margin:2px;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+  }
+div.img img
+  {
+  display:inline;
+  margin:3px;
+  border:1px solid grey;
+  }
+div.desc
+  {
+  text-align:center;
+  font-weight:normal;
+  width:200px;
+  margin-top:-7px;
+  margin-bottom:2px;
+  }
+
+  <a class="ex" href="blah">hiii</a>
